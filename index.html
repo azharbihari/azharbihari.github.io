@@ -4,92 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Portfolio website of Azarudin Bihari, a Python developer and data scientist. Explore his projects and contact him for collaborations.">
-    <meta name="keywords"
-        content="Azarudin Bihari, Python developer, data scientist, web development, data science, portfolio">
-    <meta name="author" content="Azarudin Bihari">
-    <title>Azarudin Bihari - Portfolio</title>
+    <meta name="description" content="Portfolio website of Azhar Bihari, a Python Full-stack Developer.">
+    <meta name="keywords" content="Azhar Bihari, Python developer, web development, data science, portfolio">
+    <meta name="author" content="Azhar Bihari">
+    <title>Azhar Bihari - Portfolio</title>
     <!-- Include Tailwind CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+        }
+    </style>
 </head>
 
 <body class="bg-gray-100">
-    <!-- Navigation -->
-    <nav class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto flex justify-between items-center px-4">
-            <span class="text-2xl font-bold">Azarudin Bihari</span>
-            <ul class="flex space-x-4">
-                <li><a href="#about" class="hover:text-gray-300">About</a></li>
-                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
-                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-
     <!-- Profile Image -->
     <section class="container mx-auto px-4 py-8 text-center">
-        <img src="images/azhar.jpg" alt="Azarudin Bihari" class="rounded-full w-32 h-32 mx-auto mb-4">
+        <img src="images/azhar.jpg" alt="Azhar Bihari" class="rounded-full w-40 h-40 mx-auto mb-4">
+        <h1 class="text-3xl font-bold text-white">Azhar Bihari</h1>
     </section>
-
 
     <!-- About Section -->
     <section id="about" class="container mx-auto px-4 py-8">
-        <h2 class="text-3xl font-bold mb-4">About Me</h2>
-        <p class="text-gray-700">I am a Python developer with a strong background in mathematics and experience in
-            building web solutions. Currently pursuing a BS in Data Science and Applications from the Indian Institutes
-            of Technology, Madras, and an MSc in Mathematics from Hemchandracharya North Gujarat University, Patan.</p>
-        <p class="text-gray-700">During my tenure as an Assistant Professor at Shri Adarsh Science College, I instructed
-            undergraduate courses in Mathematics and provided technical support for utilizing digital resources. I have
-            a keen interest in Python, Django, Flask, React.js, Vue.js, and various data science tools and libraries
-            such as Pandas, Scikit-learn, and SQL.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="container mx-auto px-4 py-8">
-        <h2 class="text-3xl font-bold mb-4">Projects</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Project 1 -->
-            <div class="bg-white shadow p-6 rounded-lg">
-                <h3 class="text-xl font-bold mb-2">TicketShow: Show Booking App</h3>
-                <p class="text-gray-700 mb-4">Developed an online ticket booking platform using Vue.js for the frontend
-                    and Flask and Redis for the backend. Integrated email services for offering notifications and
-                    monthly reports to users. Enhanced performance and user experience through Redis caching
-                    implementation. Implemented a background task for efficient export of theater-specific show data.
-                </p>
-                <p class="text-gray-700">Technologies: Flask, Vue.js, Redis, Bootstrap</p>
-                <a href="https://github.com/azharbihari/ticketshow2" class="text-blue-500 hover:underline">GitHub
-                    Link</a>
-            </div>
-            <!-- Project 2 -->
-            <div class="bg-white shadow p-6 rounded-lg">
-                <h3 class="text-xl font-bold mb-2">ReMarket: Second-Hand Marketplace</h3>
-                <p class="text-gray-700 mb-4">Developed a dynamic second-hand e-commerce platform using Django
-                    framework. Implemented a system for users to list and browse pre-owned items. Facilitated user
-                    interactions for inquiries, negotiations, and product details. Created a real-time chat system for
-                    seamless communication between buyers and sellers.</p>
-                <p class="text-gray-700">Technologies: Django, Vue.js, Bootstrap</p>
-                <a href="https://github.com/azharbihari/remarket" class="text-blue-500 hover:underline">GitHub Link</a>
-            </div>
-            <!-- Additional projects can be added here -->
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4 text-white">About Me</h2>
+            <p class="text-gray-300 mb-8">I'm Azhar Bihari, a Python Full-stack Developer. Before diving into tech, I
+                used to teach math. Currently, I'm studying for my BS at IIT Madras. I'm skilled in creating web apps
+                using Python tools like Django and Flask. I also work with JavaScript frameworks like React and Vue to
+                make user interfaces more interactive. Apart from that, I enjoy playing with data. I use tools like
+                Pandas, NumPy, and Scikit-learn to analyze data and build machine learning models.</p>
+            <p class="text-gray-300">Beyond coding, I love poetry, exploring different places in India, and enjoying a
+                good cup of tea. These things broaden my perspectives and keep me inspired.</p>
         </div>
     </section>
 
+
     <!-- Contact Section -->
     <section id="contact" class="container mx-auto px-4 py-8">
-        <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
-        <p class="text-gray-700">Email: <a href="mailto:azharbhr@gmail.com"
-                class="text-blue-500 hover:underline">azarudinbihari@gmail.com</a></p>
-        <p class="text-gray-700">Phone: +91 9638 634737</p>
-        <p class="text-gray-700">Location: Palanpur, India</p>
-        <p class="text-gray-700">LinkedIn: <a href="https://linkedin.com/in/azharbihari"
-                class="text-blue-500 hover:underline">linkedin.com/in/azharbihari</a></p>
-        <p class="text-gray-700">GitHub: <a href="https://github.com/azharbihari"
-                class="text-blue-500 hover:underline">github.com/azharbihari</a></p>
-        <p class="text-gray-700">Portfolio: <a href="https://azharbihari.github.io"
-                class="text-blue-500 hover:underline">azharbihari.github.io</a></p>
+        <div class="max-w-lg mx-auto bg-white rounded-lg shadow-md p-6 text-center">
+            <h2 class="text-2xl font-bold mb-4 text-gray-800">Contact Me</h2>
+            <p class="text-gray-700 mb-4">Email: <a href="mailto:azharbhr@gmail.com"
+                    class="text-blue-500 hover:underline">azarudinbihari@gmail.com</a></p>
+            <p class="text-gray-700 mb-4">Phone: +91 9638 634737</p>
+            <p class="text-gray-700 mb-4">Location: Palanpur, India</p>
+            <p class="text-gray-700 mb-4">LinkedIn: <a href="https://linkedin.com/in/azharbihari"
+                    class="text-blue-500 hover:underline">linkedin.com/in/azharbihari</a></p>
+            <p class="text-gray-700">GitHub: <a href="https://github.com/azharbihari"
+                    class="text-blue-500 hover:underline">github.com/azharbihari</a></p>
+            <p class="text-gray-700">Portfolio: <a href="https://azharbihari.github.io"
+                    class="text-blue-500 hover:underline">azharbihari.github.io</a></p>
+        </div>
     </section>
+
+    <!-- Copyright and Design Attribution -->
+    <footer class="text-center text-white text-sm mt-8">
+        <p>&copy; 2024 Azhar Bihari. Developed with <span class="text-red-500">&hearts;</span> by Azhar Bihari</p>
+    </footer>
 
 </body>
 
