@@ -1,0 +1,91 @@
+/* Agrandir Variants */
+@font-face {
+    font-family: 'Agrandir Regular';
+    src: url('../fonts/Agrandir/Agrandir-Regular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Agrandir Grand Heavy';
+    src: url('../fonts/Agrandir/Agrandir-GrandHeavy.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Agrandir Grand Light';
+    src: url('../fonts/Agrandir/Agrandir-GrandLight.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('../fonts/Agrandir/Agrandir-Narrow.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Agrandir Text Bold';
+    src: url('../fonts/Agrandir/Agrandir-TextBold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Agrandir Thin Italic';
+    src: url('../fonts/Agrandir/Agrandir-ThinItalic.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Agrandir Tight';
+    src: url('../fonts/Agrandir/Agrandir-Tight.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Agrandir Wide Black Italic';
+    src: url('../fonts/Agrandir/Agrandir-WideBlackItalic.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Agrandir Wide Light';
+    src: url('../fonts/Agrandir/Agrandir-WideLight.otf') format('opentype');
+  }
+  
+  /* Lora */
+  @font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora/Lora-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora/Lora-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora/Lora-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora/Lora-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* iA Writer Quattro */
+  @font-face {
+    font-family: 'iAWriter Quattro';
+    src: url('../fonts/iAWriter Quattro/iAWriterQuattroS-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'iAWriter Quattro';
+    src: url('../fonts/iAWriter Quattro/iAWriterQuattroS-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'iAWriter Quattro';
+    src: url('../fonts/iAWriter Quattro/iAWriterQuattroS-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'iAWriter Quattro';
+    src: url('../fonts/iAWriter Quattro/iAWriterQuattroS-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+
