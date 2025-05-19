@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azhar Bihari - Resume</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="public/css/fonts.css">
+    <style>
+      body {
+        font-family: 'IAWriterQuattro', serif;
+        color: #4c5461;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Lora', serif;
+        color: #0751cf;
+      }
+      svg {
+        fill: #0751cf;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <div class="w-full h-auto mx-auto p-4 bg-white shadow-md sm:w-[210mm] sm:h-[297mm] sm:p-6">
+      <header class="border-b border-gray-200 pb-4 sm:pb-6 mb-4 sm:mb-6">
+        <div class="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
+          <!-- Profile Image -->
+          <img 
+            src="public/images/azhar.png" 
+            alt="Azhar Bihari" 
+            class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-2 border-gray-300" 
+          />
+          
+          <!-- Name and Contact Info -->
+          <div class="space-y-2 text-center sm:text-left">
+            <h1 class="text-2xl md:text-3xl font-bold">
+              <span class="font-light">Azarudin</span> <span class="font-bold">Bihari</span>
+            </h1>
+            
+            <!-- Contact Details -->
+            <div class="flex flex-wrap justify-center sm:justify-start gap-3 sm:gap-6 text-sm">
+              <a href="mailto:azharbihari@outlook.com" class="flex items-center gap-1 hover:text-blue-700 transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                </svg>
+                <span>azharbihari@outlook.com</span>
+              </a>
+              <a href="tel:+919638634737" class="flex items-center gap-1 hover:text-blue-700 transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                </svg>
+                <span>+91 96386 34737</span>
+              </a>
+              <a href="https://www.google.com/maps/search/?api=1&query=Palanpur,+Gujarat" target="_blank" class="flex items-center gap-1 hover:text-blue-700 transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Palanpur, Gujarat</span>
+              </a>
+            </div>
+            
+            <!-- Social Links -->
+            <div class="flex flex-wrap justify-center sm:justify-start gap-3 sm:gap-6 text-sm">
+              <a href="https://linkedin.com/in/azharbihari" class="flex items-center gap-1 hover:text-blue-700 transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+                </svg>
+                <span>azharbihari</span>
+              </a>
+              
+              <a href="https://github.com/azharbihari" class="flex items-center gap-1 hover:text-blue-700 transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.809 1.304 3.495.997.107-.774.418-1.304.76-1.604-2.665-.305-5.466-1.334-5.466-5.932 0-1.31.467-2.381 1.235-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 013.003-.403c1.02.005 2.047.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.654 1.653.243 2.873.12 3.176.77.84 1.233 1.911 1.233 3.221 0 4.61-2.807 5.625-5.479 5.921.43.37.815 1.103.815 2.222 0 1.606-.015 2.896-.015 3.286 0 .319.19.694.8.576C20.565 21.796 24 17.298 24 12c0-6.627-5.373-12-12-12z"></path>
+                </svg>
+                <span>azharbihari</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Content area for resume sections -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+        <!-- Left column -->
+        <div class="md:col-span-2 space-y-4 sm:space-y-6">
+          <section>
+            <h2 style="font-weight: 700; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.25rem; margin-bottom: 0.75rem;">Skills</h2>
+            <div class="space-y-2 text-sm">
+              <p class="text-gray-900"><span style="font-size: 0.75rem; color: #0751cf;">BACKEND DEVELOPMENT:</span> Flask • Django • Celery • Redis • PostgreSQL • Kafka</p>
+              <p class="text-gray-900"><span style="font-size: 0.75rem; color: #0751cf;">FRONTEND DEVELOPMENT:</span> React • Vue.js • Next.js • Tailwind • HTML • CSS</p>
+              <p class="text-gray-900"><span style="font-size: 0.75rem; color: #0751cf;">DATA SCIENCE:</span> Machine Learning • Deep Learning • Data Visualization • Scikit-learn • TensorFlow • PyTorch • Pandas • NumPy • Matplotlib</p>
+              <p class="text-gray-900"><span style="font-size: 0.75rem; color: #0751cf;">BIG DATA:</span> PySpark • Apache Spark • Hadoop</p>
+              <p class="text-gray-900"><span style="font-size: 0.75rem; color: #0751cf;">PROGRAMMING:</span> Python • SQL • Java • MATLAB • JavaScript</p>
+              <p class="text-gray-900"><span style="font-size: 0.75rem; color: #0751cf;">MISCELLANEOUS:</span> Azure • GCP • Docker • Git • GitHub • LangChain • Streamlit • LaTeX</p>
+              <p class="text-gray-900"><span style="font-size: 0.75rem; color: #0751cf;">SOFT SKILLS:</span> Team Player • Bias for Action • Deliver Results • Critical Thinking & Problem-Solving • Adaptability</p>
+            </div>
+          </section>
+
+          <section>
+            <h2 style="font-weight: 700; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.25rem; margin-bottom: 0.75rem;">Work Experience</h2>
+            <div class="mb-4 sm:mb-5">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between">
+                <h3 class="font-medium">Data Scientist</h3>
+                <span class="text-sm text-gray-600">Jun 2024 — Mar 2025</span>
+              </div>
+              <p class="text-sm text-gray-900">Silver Brain AI AG (Remote — Zurich, Switzerland)</p>
+              <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-gray-700">
+                <li>Built an end-to-end pipeline for ingesting and storing tick-level data of
+global financial instruments from multiple exchanges spanning the last
+20 years, utilizing PostgreSQL with TimescaleDB.</li>
+                <li>Automated multi-source data collection using Flask/Django-based
+tools, with Celery to manage scheduled background tasks for data
+ingestion.</li>
+                <li>Designed and maintained ETL workflows for cleaning, transforming,
+and feeding data into predictive models.</li>
+                <li>Trained and evaluated classification and regression models, while
+exploring and testing various trading strategies for prediction accuracy.</li>
+                <li>Gained hands-on experience with distributed data processing and
+deployment using Apache Spark, Hadoop, Kafka, and Azure Compute
+for large-scale data processing.</li>
+                <li>Despite models not reaching production success due to unsatisfactory
+results, significantly improved expertise in financial data engineering
+and large-scale machine learning.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between">
+                <h3 class="font-medium">Assistant Professor</h3>
+                <span class="text-sm text-gray-600">Jun 2015 — Apr 2023</span>
+              </div>
+              <p class="text-sm text-gray-900">Shri Adarsh Science College (Radhanpur, Gujarat, India)</p>
+              <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-gray-700">
+                <li>Taught mathematics and programming courses to undergraduate
+students.</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        
+        <!-- Right column -->
+        <div class="md:col-span-1 space-y-4 sm:space-y-6">
+          <section>
+            <h2 style="font-weight: 700; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.25rem; margin-bottom: 0.75rem;">Education</h2>
+            <div class="space-y-3">
+              <div>
+                <h3 class="font-medium">Indian Institute of Technology, Madras</h3>
+                <p class="text-sm text-gray-900">BS, Data Science and Applications</p>
+                <p class="text-sm text-gray-600">Sep 2024 — Sep 2025 (Expected)</p>
+              </div>
+              <div>
+                <h3 class="font-medium">Hemchandracharya North Gujarat University, Patan</h3>
+                <p class="text-sm text-gray-900">MSc, Mathematics</p>
+                <p class="text-sm text-gray-600">Jun 2013 — Apr 2015</p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 style="font-weight: 700; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.25rem; margin-bottom: 0.75rem;">Certifications</h2>
+            <div class="space-y-3">
+              <div>
+                <h3 class="font-medium">Data Mining</h3>
+                <p class="text-sm text-gray-900">NPTEL — Jan 2025</p>
+              </div>
+              <div>
+                <h3 class="font-medium">Cloud Computing</h3>
+                <p class="text-sm text-gray-900">NPTEL — Jan 2024</p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 style="font-weight: 700; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.25rem; margin-bottom: 0.75rem;">Languages</h2>
+            <div class="mt-2 space-y-1 text-sm text-gray-700">
+              <p><span style="color: #0751cf;">Gujarati:</span> Native proficiency</p>
+              <p><span style="color: #0751cf;">Hindi:</span> Native proficiency</p>
+              <p><span style="color: #0751cf;">English:</span> Limited working proficiency</p>
+            </div>
+          </section>
+
+          <section>
+            <h2 style="font-weight: 700; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.25rem; margin-bottom: 0.75rem;">Interests</h2>
+            <div class="mt-2 space-y-1 text-sm text-gray-700">
+              <p>Literature • Music • Self-Improvement • Traveling</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
