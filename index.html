@@ -11,6 +11,20 @@
   <style>
     body { font-family: 'Inter', sans-serif; }
     h1, h2, h3 { font-family: 'Playfair Display', serif; }
+    .bullet-point {
+      position: relative;
+      padding-left: 14px;
+    }
+    .bullet-point::before {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 9px;
+      width: 4px;
+      height: 4px;
+      background: #9ca3af;
+      border-radius: 50%;
+    }
     @media print {
       .no-print { display: none !important; }
       body { background: white !important; }
@@ -74,41 +88,39 @@
           <div class="relative pl-4 border-l border-gray-200">
             <div class="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-gray-300"></div>
             <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
-              <h3 class="text-sm font-medium text-gray-900">Software Developer</h3>
-              <span class="text-xs text-gray-400">Aug 2025 – Present</span>
+              <h3 class="text-sm font-medium text-gray-900">Software Developer – Sudha Gopalakrishnan Brain Centre, IIT Madras</h3>
+              <span class="text-xs text-gray-400 whitespace-nowrap">Aug 2025 – Present</span>
             </div>
-            <p class="text-sm text-gray-500">Sudha Gopalakrishnan Brain Centre, IIT Madras</p>
-            <p class="text-sm text-gray-600 mt-2">
-              Developing and maintaining research-driven software systems supporting neuroscience and data-intensive applications.
-            </p>
-          </div>
-
-          <div class="relative pl-4 border-l border-gray-200">
-            <div class="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-gray-300"></div>
-            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
-              <h3 class="text-sm font-medium text-gray-900">Data Scientist</h3>
-              <span class="text-xs text-gray-400">Jun 2024 – Mar 2025</span>
-            </div>
-            <p class="text-sm text-gray-500">Silver Brain AI AG (Remote, Zurich)</p>
-            <ul class="text-sm text-gray-600 mt-2 space-y-1">
-              <li>Designed scalable data pipelines for 20+ years of tick-level financial data using PostgreSQL and TimescaleDB.</li>
-              <li>Automated multi-source data ingestion with Flask, Django, and Celery.</li>
-              <li>Built ETL workflows for data validation, cleaning, and feature engineering.</li>
-              <li>Trained and optimized classification and regression models for trading strategies.</li>
-              <li>Leveraged Spark, Hadoop, and Kafka on Azure infrastructure.</li>
+            <ul class="text-sm text-gray-600 mt-2 space-y-1.5">
+              <li class="bullet-point">Developing and maintaining research-driven software systems supporting neuroscience and data-intensive applications.</li>
             </ul>
           </div>
 
           <div class="relative pl-4 border-l border-gray-200">
             <div class="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-gray-300"></div>
             <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
-              <h3 class="text-sm font-medium text-gray-900">Assistant Professor</h3>
-              <span class="text-xs text-gray-400">Jun 2015 – Apr 2023</span>
+              <h3 class="text-sm font-medium text-gray-900">Data Scientist – Silver Brain AI AG (Remote, Zurich)</h3>
+              <span class="text-xs text-gray-400 whitespace-nowrap">Jun 2024 – Mar 2025</span>
             </div>
-            <p class="text-sm text-gray-500">Shri Adarsh Science College, Radhanpur</p>
-            <p class="text-sm text-gray-600 mt-2">
-              Taught undergraduate courses in mathematics and programming.
-            </p>
+            <ul class="text-sm text-gray-600 mt-2 space-y-1.5">
+              <li class="bullet-point">Designed and maintained scalable data pipelines to ingest and store 20+ years of tick-level financial time-series data using PostgreSQL and TimescaleDB.</li>
+              <li class="bullet-point">Automated multi-source data ingestion using Flask and Django services, with task scheduling and orchestration via Celery.</li>
+              <li class="bullet-point">Built end-to-end ETL workflows for data validation, cleaning, feature engineering, and machine learning consumption.</li>
+              <li class="bullet-point">Trained, evaluated, and optimized classification and regression models to assess predictive performance of trading strategies.</li>
+              <li class="bullet-point">Leveraged distributed data processing frameworks including Apache Spark, Hadoop, and Kafka on Azure infrastructure.</li>
+              <li class="bullet-point">Collaborated with cross-functional teams to deliver production-ready data engineering and machine learning solutions.</li>
+            </ul>
+          </div>
+
+          <div class="relative pl-4 border-l border-gray-200">
+            <div class="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-gray-300"></div>
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
+              <h3 class="text-sm font-medium text-gray-900">Assistant Professor – Shri Adarsh Science College (Radhanpur, Gujarat)</h3>
+              <span class="text-xs text-gray-400 whitespace-nowrap">Jun 2015 – Apr 2023</span>
+            </div>
+            <ul class="text-sm text-gray-600 mt-2 space-y-1.5">
+              <li class="bullet-point">Taught undergraduate courses in mathematics and programming, emphasizing problem-solving and analytical reasoning.</li>
+            </ul>
           </div>
 
         </div>
@@ -119,31 +131,32 @@
         <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4">Projects</h2>
         <div class="space-y-4">
 
-          <div>
+          <div class="relative pl-4 border-l border-gray-200">
+            <div class="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-gray-300"></div>
             <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
-              <h3 class="text-sm font-medium text-gray-900">Nexora – IITM BS Degree Support Platform</h3>
-              <span class="text-xs text-gray-400">Jun 2025 – Sep 2025</span>
+              <h3 class="text-sm font-medium text-gray-900">Nexora – IITM BS Degree Support Platform | FastAPI, Next.js, PostgreSQL, Celery, Twilio, LLMs</h3>
+              <span class="text-xs text-gray-400 whitespace-nowrap">Jun 2025 – Sep 2025</span>
             </div>
-            <p class="text-xs text-gray-500 mt-0.5">FastAPI, Next.js, PostgreSQL, Celery, Twilio, LLMs</p>
-            <ul class="text-sm text-gray-600 mt-2 space-y-1">
-              <li>AI-powered academic support platform with chat and voice call interfaces.</li>
-              <li>Integrated Twilio voice calling with speech-to-text and text-to-speech pipelines.</li>
-              <li>Implemented semantic search using pgvector and LLM-based RAG.</li>
-              <li>Built FastAPI backend with JWT auth and async task processing via Celery.</li>
+            <ul class="text-sm text-gray-600 mt-2 space-y-1.5">
+              <li class="bullet-point">Developed an AI-powered academic support platform enabling users to interact via chat and voice calls for query resolution.</li>
+              <li class="bullet-point">Integrated Twilio-based voice calling with speech-to-text and text-to-speech pipelines for real-time conversational AI.</li>
+              <li class="bullet-point">Implemented semantic search using vector embeddings (pgvector) and LLM-based retrieval-augmented generation (RAG).</li>
+              <li class="bullet-point">Built a FastAPI backend with JWT authentication, asynchronous task processing, and background job orchestration Celery.</li>
             </ul>
           </div>
 
-          <div>
+          <div class="relative pl-4 border-l border-gray-200">
+            <div class="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-gray-300"></div>
             <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
-              <h3 class="text-sm font-medium text-gray-900">Dukascopy Downloader – Financial Tick Data Platform</h3>
-              <span class="text-xs text-gray-400">Jun 2024 – Mar 2025</span>
+              <h3 class="text-sm font-medium text-gray-900">Dukascopy Downloader – Financial Tick Data Platform | Django, PostgreSQL, TimescaleDB, Celery</h3>
+              <span class="text-xs text-gray-400 whitespace-nowrap">Jun 2024 – Mar 2025</span>
             </div>
-            <p class="text-xs text-gray-500 mt-0.5">Django, PostgreSQL, TimescaleDB, Celery, Docker</p>
-            <ul class="text-sm text-gray-600 mt-2 space-y-1">
-              <li>Built Django system for historical tick-level financial data from Dukascopy.</li>
-              <li>Designed multi-database architecture with PostgreSQL and TimescaleDB per market.</li>
-              <li>Implemented async data ingestion with Celery workers and scheduled downloads.</li>
-              <li>Optimized time-series storage using hypertables for high-performance queries.</li>
+            <ul class="text-sm text-gray-600 mt-2 space-y-1.5">
+              <li class="bullet-point">Built a Django system to download and manage historical tick-level financial data from Dukascopy for multiple instruments.</li>
+              <li class="bullet-point">Designed a multi-database architecture with separate PostgreSQL and TimescaleDB clusters per market (US, UK, EU).</li>
+              <li class="bullet-point">Implemented asynchronous data ingestion using Celery workers with scheduled nightly downloads via Celery Beat.</li>
+              <li class="bullet-point">Optimized time-series storage using TimescaleDB hypertables and indexing for high-performance queries.</li>
+              <li class="bullet-point">Containerized the entire stack using Docker Compose, including Django, Celery, Redis, and Flower monitoring.</li>
             </ul>
           </div>
 
@@ -176,11 +189,11 @@
       <section>
         <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Certifications</h2>
         <ul class="text-sm text-gray-600 space-y-1.5">
-          <li>Data Mining <span class="text-gray-400">—</span> NPTEL, IIT Madras <span class="text-gray-400">2025</span></li>
-          <li>Cloud Computing <span class="text-gray-400">—</span> NPTEL, IIT Madras <span class="text-gray-400">2024</span></li>
-          <li>Deep Learning Using PyTorch <span class="text-gray-400">—</span> IIT Madras <span class="text-gray-400">2025</span></li>
-          <li>Machine Learning with NumPy <span class="text-gray-400">—</span> IIT Madras <span class="text-gray-400">2025</span></li>
-          <li>GenAI Workshop <span class="text-gray-400">—</span> CoE, IIT Madras <span class="text-gray-400">2025</span></li>
+          <li>Data Mining (NPTEL – IIT Madras) Jan 2025</li>
+          <li>Cloud Computing (NPTEL – IIT Madras) Jan 2024</li>
+          <li>Deep Learning Using PyTorch (IIT Madras) Sep 2025</li>
+          <li>Implementing Machine Learning Techniques using NumPy (IIT Madras) Sep 2025</li>
+          <li>GenAI Workshop – Unlock the Power of Generative AI (CoE, IIT Madras) Jun 2025 – Sep 2025</li>
         </ul>
       </section>
 
@@ -189,28 +202,40 @@
         <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Skills</h2>
         <div class="space-y-3 text-sm">
           <div>
-            <span class="text-xs text-gray-400 block mb-1">Languages</span>
+            <span class="text-xs text-gray-400 block mb-1">Programming & Scripting</span>
             <p class="text-gray-700">Python, SQL, Java, JavaScript, MATLAB</p>
           </div>
           <div>
-            <span class="text-xs text-gray-400 block mb-1">Backend & Databases</span>
-            <p class="text-gray-700">Flask, Django, FastAPI, PostgreSQL, Redis, Kafka</p>
+            <span class="text-xs text-gray-400 block mb-1">Backend, APIs & Databases</span>
+            <p class="text-gray-700">Flask, Django, REST APIs, PostgreSQL, Redis, Kafka</p>
           </div>
           <div>
-            <span class="text-xs text-gray-400 block mb-1">Frontend</span>
+            <span class="text-xs text-gray-400 block mb-1">Frontend & UI</span>
             <p class="text-gray-700">React, Vue.js, Next.js, Tailwind CSS</p>
           </div>
           <div>
             <span class="text-xs text-gray-400 block mb-1">Data Science</span>
-            <p class="text-gray-700">ML, Deep Learning, Scikit-learn, TensorFlow, PyTorch, NumPy, Pandas</p>
+            <p class="text-gray-700">Machine Learning, Deep Learning, Scikit-learn, TensorFlow, PyTorch, NumPy, Pandas, Feature Engineering, EDA</p>
           </div>
           <div>
-            <span class="text-xs text-gray-400 block mb-1">Big Data & Cloud</span>
-            <p class="text-gray-700">Spark, Hadoop, Azure, GCP, Docker</p>
+            <span class="text-xs text-gray-400 block mb-1">Big Data & Distributed Systems</span>
+            <p class="text-gray-700">Apache Spark, PySpark, Hadoop</p>
           </div>
           <div>
-            <span class="text-xs text-gray-400 block mb-1">AI & Tools</span>
-            <p class="text-gray-700">LangChain, LLMs, RAG, Git, GitHub, Streamlit</p>
+            <span class="text-xs text-gray-400 block mb-1">Cloud, DevOps & Containers</span>
+            <p class="text-gray-700">Azure, Google Cloud Platform (GCP), Docker</p>
+          </div>
+          <div>
+            <span class="text-xs text-gray-400 block mb-1">LLMs & GenAI</span>
+            <p class="text-gray-700">LangChain, Prompt Engineering, Large Language Models (LLMs)</p>
+          </div>
+          <div>
+            <span class="text-xs text-gray-400 block mb-1">Tools & Version Control</span>
+            <p class="text-gray-700">Git, GitHub, Streamlit, LaTeX</p>
+          </div>
+          <div>
+            <span class="text-xs text-gray-400 block mb-1">Soft Skills</span>
+            <p class="text-gray-700">Problem Solving, Analytical Thinking, Team Collaboration, Adaptability</p>
           </div>
         </div>
       </section>
